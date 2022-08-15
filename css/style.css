@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-color: #F9F9C5;
+}
+header {
+	margin-top: 32px;
+
+}
+h1{
+	text-align: center;
+}
+.header-p{
+	text-align: center;
+	margin-top: 8px;
+}
+
+body,
+button,
+input{
+	font-family: 'Kanit', sans-serif;
+
+}
+
+.header-span{
+	padding: 2px 4px;
+	color: white;
+	background-color: black;
+}
+main{
+	width: 80%;
+	margin: 32px auto;
+
+}
+img{
+	width: 100%;
+	height: auto;
+}
+section{
+	width: 65%;
+	float: left;
+}
+article{
+	margin-bottom: 24px;
+	box-shadow: 1px 0.5px 10px darkgray;
+}
+.blog-entry-content{
+	padding: 12px;
+	color: #F37878;
+}
+h5{
+	margin-top: 8px;
+}
+.blog-date{
+	color: gray;
+}
+.blog-description-bottom{
+	margin-top: 24px;
+}
+button{
+	padding: 8px 12px;
+	border: 1px solid gray;
+}
+.blog-comments{
+	float: right;
+	margin-top: 8px;
+	color: #F37878;
+}
+.blog-numbers{
+	padding:2px 4px;
+	color: white;
+	background-color: black;
+}
+.right-container{
+	width: 30%;
+	float: right;
+	margin-left: 5%;
+}
+.menu-p{
+	margin-top: 8px;
+	color: #F37878;
+}
+.menu-content {
+	padding: 12px;
+	color: #F37878;
+}
+.blog-description {
+	margin-top: 8px;
+	color: #F37878;
+}
+.hr{
+	height: 3px;
+	position: relative;
+	top: 10px;
+  	display: block;
+  	width: 100%;
+}
+.tags_container{
+	margin-top: 10px;
+	padding: 0px 4px;
+}
+.tag{
+	display: inline-block;
+	padding: 2px 4px;
+	background-color: black;
+	color: white;
+	box-shadow: 1px 0.5px 10px darkgray;
+
+}
